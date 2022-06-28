@@ -12,6 +12,7 @@ const App = () => {
   const listContacts = useSelector(state => state.items);
   const dispatch = useDispatch()
 
+  
   // тут я работаю с жизнеными циклами и проверяю локалку при рендере страницы
   useEffect(() => {
     const lCont = localStorage.getItem('contacts');
