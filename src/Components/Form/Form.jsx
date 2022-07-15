@@ -39,6 +39,22 @@ export const Form = () => {
     }
   };
 
+  // const formSubmitApp = data => {
+  //   if (contacts.find(
+  //       el => el.name.toLowerCase().trim() === data.name.toLowerCase().trim()))
+  //       {alert(`${data.name} is already in contacts`);
+  //     return;
+  //   }
+  //   setContacts(state => [
+  //     ...state,
+  //     {
+  //       id: idGenerator(),
+  //       name: data.name,
+  //       numberTel: data.number,
+  //     },
+  //   ]);
+  // };
+
   //внутрений метод сабмита обрабатывающий событие
   const formSubmit = event => {
     event.preventDefault();
